@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antique Awaits! | Inquiry</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-xl bg-white fixed-top shadow-sm px-4">
+    <a class="navbar-brand fw-bold fst-italic" href="index.html" style="color:var(--primary-blue);font-size:15px;">Antique Awaits!</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mx-auto gap-lg-1">
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-semibold" href="index.html" role="button" data-bs-toggle="dropdown" style="color:var(--primary-blue);">Overview</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="featured.html#main">Featured Destinations</a></li>
+                    <li><a class="dropdown-item" href="highlights.html#main">Highlights &amp; Activities</a></li>
+                    <li><a class="dropdown-item" href="updates.html#main">Travel Updates</a></li>
+                    <li><a class="dropdown-item" href="tips.html#main">Travel Tips</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-semibold" href="about.html" role="button" data-bs-toggle="dropdown" style="color:var(--primary-blue);">About Antique</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="history.html#main">History of Antique</a></li>
+                    <li><a class="dropdown-item" href="tourism.html#main">Tourism</a></li>
+                    <li><a class="dropdown-item" href="festivals.html#main">Festivals (Binirayan)</a></li>
+                    <li><a class="dropdown-item" href="geography.html#main">Geography &amp; Location</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-semibold" href="destinations.html" role="button" data-bs-toggle="dropdown" style="color:var(--primary-blue);">Destinations</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="beaches.html#main">Beaches &amp; Islands</a></li>
+                    <li><a class="dropdown-item" href="mountain.html#main">Mountains &amp; Nature</a></li>
+                    <li><a class="dropdown-item" href="rivers.html#main">Rivers &amp; Waterfalls</a></li>
+                    <li><a class="dropdown-item" href="heritage.html#main">Heritage &amp; Landmarks</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-semibold" href="activities.html" role="button" data-bs-toggle="dropdown" style="color:var(--primary-blue);">Activities</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="adventure.html#main">Adventure Activities</a></li>
+                    <li><a class="dropdown-item" href="food.html#main">Food &amp; Dining</a></li>
+                    <li><a class="dropdown-item" href="culexperience.html#main">Cultural Experiences</a></li>
+                    <li><a class="dropdown-item" href="relaxation.html#main">Relaxation &amp; Leisure</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-semibold" href="plan.html" role="button" data-bs-toggle="dropdown" style="color:var(--primary-blue);">Plan your Trip</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="map.html#main">How to Get There</a></li>
+                    <li><a class="dropdown-item" href="accommodation.html#main">Accommodation</a></li>
+                    <li><a class="dropdown-item" href="transportation.html#main">Transportation</a></li>
+                    <li><a class="dropdown-item" href="safetytips.html#main">Travel Tips &amp; Safety</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link fw-semibold" href="gallery.html" style="color:var(--primary-blue);">Gallery</a>
+            </li>
+
+        </ul>
+        <a class="fw-semibold ms-lg-3" href="contact.html" style="color:var(--primary-blue);text-decoration:none;">✉ Inquiry</a>
+    </div>
+</nav>
+
+    <section class="hero">
+        <div class="hero-overlay">
+            <div class="province-badge">
+                <div class="badge-circle">
+                    <div class="seal-placeholder"></div>
+                </div>
+            </div>
+            <div class="hero-text">
+                <h3>Discover the wonders of</h3>
+                <h1>ANTIQUE</h1>
+                <p>The Hidden Gem of the Philippines</p>
+            </div>
+        </div>
+    </section>
+
+    <main id="main" class="page-wrapper">
+        <section class="welcome-card">
+
+            <h2>Travel Inquiry Form</h2>
+            <p class="open"><b>✉️ Let us help you plan your perfect Antique adventure</b></p>
+            <p style="text-align:justify;padding-left:25px;" class="intro-p">
+                Have questions about traveling to Antique? Interested in a specific destination? Fill out the form below and our tourism team will get back to you as soon as possible.
+            </p>
+            <br>
+
+            <div class="inquiry-form-wrap">
+
+                <!-- Full Name -->
+                <div class="mb-4">
+                    <label class="form-label" for="fullName">Full Name <span style="color:#dc3545;">*</span></label>
+                    <input type="text" class="form-control" id="fullName" placeholder="e.g. Juan dela Cruz">
+                    <div class="field-error" id="errFullName">Full name is required.</div>
+                </div>
+
+                <!-- Email Address -->
+                <div class="mb-4">
+                    <label class="form-label" for="emailAddress">Email Address <span style="color:#dc3545;">*</span></label>
+                    <input type="text" class="form-control" id="emailAddress" placeholder="e.g. juan@email.com">
+                    <div class="field-error" id="errEmail">Please enter a valid email address.</div>
+                </div>
+
+                <!-- Contact Number -->
+                <div class="mb-4">
+                    <label class="form-label" for="contactNumber">Contact Number <span style="color:#dc3545;">*</span></label>
+                    <input type="text" class="form-control" id="contactNumber" placeholder="e.g. 09171234567">
+                    <div class="field-error" id="errContact">Contact number must contain numbers only.</div>
+                </div>
+
+                <!-- Selected Destination -->
+                <div class="mb-4">
+                    <label class="form-label" for="destination">Selected Destination <span style="color:#dc3545;">*</span></label>
+                    <select class="form-select" id="destination">
+                        <option value="">-- Choose a destination --</option>
+                        <option>Mararison Island (Malalison Island) — Culasi</option>
+                        <option>Nogas Island — Anini-y</option>
+                        <option>Seco Island — Tibiao</option>
+                        <option>Bugtong Bato Falls — Tibiao</option>
+                        <option>Malumpati Cold Spring &amp; River Tubing — Culasi</option>
+                        <option>Pulangbato Falls — Barbaza</option>
+                        <option>Tigbawan Falls — Anini-y</option>
+                        <option>Mount Madja-as — Valderrama / Barbaza</option>
+                        <option>Kawa Hot Bath — Tibiao</option>
+                        <option>Anini-y Church — Anini-y</option>
+                        <option>Iraynun-Bukidnon Rice Terraces — Valderrama</option>
+                        <option>Patnongon Church Ruins — Patnongon</option>
+                        <option>Sibalom Natural Park — Sibalom</option>
+                        <option>Tibiao River Adventure — Tibiao</option>
+                        <option>Malandog Marker — Hamtic</option>
+                        <option>Multiple Destinations / Full Tour</option>
+                        <option>Other</option>
+                    </select>
+                    <div class="field-error" id="errDestination">Please select a destination.</div>
+                </div>
+
+                <!-- Travel Date -->
+                <div class="mb-4">
+                    <label class="form-label" for="travelDate">Travel Date <span style="color:#dc3545;">*</span></label>
+                    <input type="date" class="form-control" id="travelDate">
+                    <div class="field-error" id="errDate">Please select a travel date.</div>
+                </div>
+
+                <!-- Number of Visitors -->
+                <div class="mb-4">
+                    <label class="form-label" for="numVisitors">Number of Visitors <span style="color:#dc3545;">*</span></label>
+                    <input type="number" class="form-control" id="numVisitors" placeholder="e.g. 2" min="1">
+                    <div class="field-error" id="errVisitors">Number of visitors must be at least 1.</div>
+                </div>
+
+                <!-- Message -->
+                <div class="mb-4">
+                    <label class="form-label" for="message">Message <span style="color:#dc3545;">*</span></label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Tell us about your travel plans, questions, or special requests..."></textarea>
+                    <div class="field-error" id="errMessage">Message is required.</div>
+                </div>
+
+                <button class="inquiry-submit-btn" id="submitBtn">
+                    Send Inquiry ✉️
+                </button>
+
+                <!-- Success Message -->
+                <div class="form-success-msg" id="successMsg">
+                    ✅ Thank you for your inquiry! We'll get back to you shortly.
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer id="site-footer" class="footer">
+        <h4>Antique, Philippines 2026</h4>
+        <p>Antoque, Johanna Lorraine</p>
+        <p>johannalorraine.antoque@ctu.edu.ph</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
